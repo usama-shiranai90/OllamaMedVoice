@@ -120,6 +120,9 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
+image
+image/
+
 .idea
 idea/
 /.idea

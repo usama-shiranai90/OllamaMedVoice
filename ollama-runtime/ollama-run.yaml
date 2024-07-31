@@ -1,0 +1,16 @@
+services:
+  ollama-service:
+    container_name: ollama_pi_local
+    user: root
+    image: ollama/ollama:0.1.27
+    volumes:
+      - ollama-data:/root/.ollama
+    ports:
+      - 11434:11434
+volumes:
+  ollama-data:
+  # driver: local
+  # driver_opts:
+  #   type: none
+  #   o: bind
+  #   device: /home/skhoury/go/src/github.com/sherine-k/sandbox/pi-genai-stack/ollama

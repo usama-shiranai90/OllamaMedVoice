@@ -1,0 +1,4 @@
+include:
+  - ollama-runtime/ollama-run.yaml # to run ollama using command line.
+  - ollama-runtime/models.yaml # download the models.
+  - src/run.yaml # start application
