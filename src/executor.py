@@ -13,7 +13,7 @@ language = 'en'
 # import matplotlib.pyplot as plt
 # ^ matplotlib is great for visualising data and for testing purposes but usually not needed for production
 # load_dotenv()
-openai.api_key='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'
+openai.api_key=''
 model = 'gpt-3.5-turbo'
 r = sr.Recognizer()
 

@@ -13,7 +13,7 @@ import subprocess
 # from os.path import join, dirname
 # import matplotlib.pyplot as plt
 # ^ matplotlib is great for visualising data and for testing purposes but usually not needed for production
-openai.api_key='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'
+openai.api_key='  '
 load_dotenv()
 model = 'gpt-3.5-turbo'
 # Set up the speech recognition and text-to-speech engines
@@ -90,3 +90,5 @@ def listen_and_respond(source):
 # Use the default microphone as the audio source
 with sr.Microphone() as source:
     listen_for_wake_word(source)
+
+    #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
