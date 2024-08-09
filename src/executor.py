@@ -90,6 +90,6 @@ def listen_and_respond(source):
 with sr.Microphone() as source:
     listen_for_wake_word(source)
 
-    #new file 
+  
 
     #sk-proj-iLyq4kZmhNmeA8cCTQuSS3zexFvL--qsas03fjtMKw4YfpMKqhaUrWPxfwT3BlbkFJdz8QfV9loUBp0HILcwFuou6Q0I-G2Zc_GAOKewF3N1IxiwYsQ_aozjX8Y
