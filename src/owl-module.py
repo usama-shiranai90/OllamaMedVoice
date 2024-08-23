@@ -10,9 +10,6 @@ from gtts import gTTS
 import speech_recognition as sr
 from vosk import Model, KaldiRecognizer
 
-# from langchain.prompts import PromptTemplate
-# from langchain_openai import OpenAI
-# from langchain.chains import LLMChain
 from langchain_core.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI  # OpenAI
 from langchain_core.runnables import RunnableSequence
