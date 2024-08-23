@@ -2,7 +2,7 @@ FROM ubuntu:latest
 LABEL authors="OneEyeOwl"
 ENTRYPOINT ["top", "-b"]
 
-ADD src/main.py .
+ADD src/raw/main.py .
 RUN pip install -r requirements.txt
 CMD ["python", "./main.py"]
 

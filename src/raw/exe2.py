@@ -51,7 +51,7 @@ while True:
         response_text = response.choices[0].message.content
         print(response_text)
         myobj = gTTS(text = response_text, lang='ja')
-        filename="test.wav"
+        filename= "test.wav"
             #myobj.save("test.wav")
         myobj.save(filename)
         playsound.playsound(filename)
